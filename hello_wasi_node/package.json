@@ -1,0 +1,13 @@
+{
+  "name": "hello_wasi_node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --experimental-wasi-unstable-preview1 src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

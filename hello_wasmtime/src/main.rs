@@ -28,7 +28,9 @@ fn main() {
         return ;
     }
 
-    if let Err(err) = do_copy(&args[1], &args[2]) {
+    let l = args.len();
+
+    if let Err(err) = do_copy(&args[l - 2], &args[l - 1]) {
         eprintln!("{}", err);
     }
 }
